@@ -1,0 +1,25 @@
+.offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+#main {
+  margin-left: 250px;
+  transition: 0.3s;
+}
+
+#main .row {
+  margin-right: 0;
+}
+
+#main-body {
+  transition: 0.3s;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.row-content-header {
+  padding: 5px;
+  font-size: 20px;
+}

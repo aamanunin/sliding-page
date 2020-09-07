@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'sliding-page'`, () => {
+  it(`should have as title 'Select an options'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sliding-page');
+    expect(app.title).toEqual('Select an options :');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('sliding-page app is running!');
+    expect(compiled.querySelector('.row-content-header').textContent).toContain('Select an options');
   });
 });
